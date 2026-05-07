@@ -17,15 +17,5 @@ export default defineConfig({
   build: {
     target: 'esnext',
     sourcemap: true,
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          vendor: ['react', 'react-dom', 'react-router-dom'],
-          charts: ['recharts'],
-          motion: ['framer-motion'],
-          state: ['zustand', '@tanstack/react-query'],
-        },
-      },
-    },
   },
 });
