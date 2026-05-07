@@ -21,6 +21,7 @@
     "react-dom": "^19.1.0",
     "react-ga4": "^3.0.1",
     "react-helmet-async": "^3.0.0",
+    "react-is": "^19.2.6",
     "react-router-dom": "^7.15.0",
     "react-window": "^2.2.7",
     "recharts": "^3.8.1",
